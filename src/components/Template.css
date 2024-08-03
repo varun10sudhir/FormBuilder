@@ -1,0 +1,61 @@
+/* Template.css */
+
+.template_section {
+    padding: 20px; /* Optional: Add padding around the section */
+}
+
+.template_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Space below the top section */
+}
+
+.template_left {
+    font-size: 16px;
+    color: #202124;
+}
+
+.template_right {
+    display: flex;
+    align-items: center;
+}
+
+.gallery_button {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Space between button and icon */
+    font-size: 14px; /* Adjust font size if needed */
+}
+
+.template_body {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of items if there's not enough space */
+    justify-content: space-evenly; /* Distribute space evenly between cards */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px; /* Reduced space around each card */
+    text-align: center;
+    width: 180px; /* Adjust width of each card */
+    border: 1px solid #ddd; /* Optional: Add border around the card */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    padding: 10px; /* Space inside each card */
+    background-color: #fff; /* Background color of each card */
+}
+
+.card img {
+    width: 140px; /* Adjust width of the image */
+    height: 140px; /* Adjust height of the image */
+    object-fit: cover; /* Ensure image covers the container */
+    border-radius: 8px; /* Optional: Add rounded corners to the image */
+    margin-bottom: 10px; /* Space below the image */
+}
+
+.card_title {
+    font-size: 14px; /* Font size of the card title */
+    color: #202124; /* Color of the card title */
+}

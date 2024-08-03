@@ -1,0 +1,80 @@
+/* Center the container and add some margin */
+.auth-container {
+  max-width: 400px;
+  margin: 5% auto; /* Adjusted margin for better centering */
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.auth-container:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 28px; /* Slightly larger font size */
+  font-weight: 600; /* Increased font weight */
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container input {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  outline: none;
+}
+
+.auth-container input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25); /* Added a focus shadow */
+}
+
+.auth-container button {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added button shadow */
+}
+
+.auth-container button:hover {
+  background-color: #0056b3;
+}
+
+.auth-container button:active {
+  background-color: #004494; /* Slightly darker on click */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Darker shadow on click */
+}
+
+.auth-container p {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #666;
+}
+
+.auth-container p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.auth-container p a:hover {
+  text-decoration: underline;
+}
